@@ -7,4 +7,4 @@
 
 Here is the output of the simulation:
 
-![Plot](Screenshot 2026-01-15 172219.png)
+![Plot](Screenshot%202026-01-15%20172219.png)
