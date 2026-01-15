@@ -7,4 +7,4 @@
 
 Here is the output of the simulation:
 
-![CDU Output] (C:\Users\Jasminee Behera\OneDrive\Pictures\Screenshots\Screenshot 2026-01-15 172408.png)
+![Plot] (Screenshot 2026-01-15 172219.png)
