@@ -1,50 +1,28 @@
-Crude Distillation Unit (CDU) Simulation & Energy Optimization
-Project Overview
+Crude Distillation Unit (CDU) Simulation Project
+🔹 Overview
 
-This project simulates a multi-tray crude distillation column in MATLAB and optimizes its operation to reduce energy consumption while maintaining product purity. It calculates tray-wise compositions, total energy usage, and determines the optimal reflux ratio for the column.
+This project models a multi-tray crude distillation column using MATLAB to simulate tray-wise compositions, optimize energy consumption, and determine optimal operating conditions for refinery separation processes.
 
-Features
+🔹 Features
 
-Tray-wise material and energy balances for light key components.
+• Simulates tray-wise compositions for light key components across the column.
+• Calculates total column energy and evaluates the impact of reflux ratio on energy consumption.
+• Determines optimal reflux ratio to achieve desired product purity while minimizing energy usage.
 
-Vapor-liquid equilibrium calculations using relative volatility.
+🔹 Output Highlights
 
-Column modeling with multiple equilibrium trays.
+• Tray compositions (light key): 0.9547, 0.9051, 0.8446, 0.7717, 0.6856, 0.5876, 0.4909, 0.1708, 0.0445, 0.0010, 0.0010, 0.0010, 0.0010, 0.0010, 0.0010, 0.0074
+• Optimal Reflux Ratio: 2
+• Minimum Total Energy: 98,683.8 J/mol
 
-Optimization of reflux ratio to minimize energy usage while achieving target product purity.
+🔹 Tools & Techniques
 
-Sensitivity analysis for feed conditions, reflux ratio, and number of trays.
+• MATLAB numerical methods (fsolve, fmincon) for solving nonlinear tray equations.
+• Material and energy balances for each tray.
+• Optimization under purity constraints to minimize energy consumption.
 
-Results
+🔹 Benefits
 
-Example output from the simulation:
-
-Tray compositions (light key): 0.9547 → 0.0074
-
-Optimal Reflux Ratio: 2
-
-Minimum Total Energy: 98683.98 J/mol
-
-Usage
-
-Open MATLAB.
-
-Load main_CDU.m file.
-
-Run the script.
-
-Outputs include tray compositions, total column energy, and optimal reflux ratio.
-
-Applications
-
-Process optimization in refineries.
-
-Energy-efficient operation of distillation columns.
-
-Educational tool for chemical engineering students.
-
-Requirements
-
-MATLAB R2019b or later.
-
-No additional toolboxes required.
+• Understand industrial distillation processes and energy optimization strategies.
+• Gain hands-on experience with process modeling and numerical simulation.
+• Demonstrates ability to apply MATLAB to chemical engineering problems.
