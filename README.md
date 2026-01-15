@@ -8,3 +8,4 @@
 Here is the output of the simulation:
 
 ![Plot](Screenshot%202026-01-15%20172219.png)
+![Output](Screenshot202026-01-1520172408.png)
